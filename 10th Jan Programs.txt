@@ -1,0 +1,169 @@
+Program1
+
+In a South Africa Class room, each student has a name with a single character. 
+Initally all the students names will be given. The teacher now wants the students 
+to be shuffled, so that two students names that are adjacent to each other are not same. 
+
+If the names can be shuffled in such a way print yes else  prints no. 
+
+input=ddt
+output=yes
+
+
+Explanation -the student names can be shuffled as dtd
+
+
+input=rrrt
+output=no
+
+Explanation - the studens names after shuffling will have same student names adjacent to each other 
+
+
+
+back end test cases
+case=1
+input=abcefghijklmnnmlkhgfedcba
+output=yes
+
+case=2
+input=aaaaa
+output=no
+
+case=3
+input=a
+output=yes
+
+case=4
+input=abcccbba
+output=yes
+
+
+case=5
+input=aaaaabbb
+output=no
+
+
+import java.util.*;
+
+class ReorganizeString {
+ public String reorganizeString(String S) {
+        int[] hash = new int[26];
+        for (int i = 0; i < S.length(); i++) {
+            hash[S.charAt(i) - 'a']++;
+        } 
+        int max = 0, letter = 0;
+        for (int i = 0; i < hash.length; i++) {
+            if (hash[i] > max) {
+                max = hash[i];
+                letter = i;
+            }
+        }
+        if (max > (S.length() + 1) / 2) {
+            return ""; 
+        }
+        char[] res = new char[S.length()];
+        int idx = 0;
+        while (hash[letter] > 0) {
+            res[idx] = (char) (letter + 'a');
+            idx += 2;
+            hash[letter]--;
+        }
+        for (int i = 0; i < hash.length; i++) {
+            while (hash[i] > 0) {
+                if (idx >= res.length) {
+                    idx = 1;
+                }
+                res[idx] = (char) (i + 'a');
+                idx += 2;
+                hash[i]--;
+            }
+        }
+        return String.valueOf(res);
+    }
+
+	public static void main( String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		String s=sc.next();
+		String res=new ReorganizeString().reorganizeString(s);
+		if(res.length()>0)
+			System.out.println("yes");
+		else
+			System.out.println("no");
+	}
+}
+
+
+Program2
+
+A Group of Monsters has few powers. 
+The powers are represented in numbers both positive and negative. 
+Each Member of the monster prays to get some power. 
+God sanctions only one member of the Monster Group. 
+The power can be performed only once on only one member of the monster. 
+God will multipy the monster power with the same power. 
+After  performing the above action, a sub-group of monsters check the power they have.
+We have to now see which sub-group has the highest power. Print the Highest Sub-Power.
+
+
+The first line of input contains the powers of the monsters. 
+
+input = 4 -1 -5 -3
+output = 28
+
+The power operation is performed on the third monster, -5 * -5 which is 25 
+
+Now the sub group with highest power is 4+(-1)+25 = 28 
+
+
+case = 1
+input = -1 -1 -1 -1 -1 10
+output = 100
+
+case = 2
+input=2
+output=4
+
+case=3
+input=1 2 3 4 5 6
+output=51
+
+
+case = 4
+input=1 -2 3 -4 5 -6 7 -8 -9
+output=81
+
+case = 5
+input=-1 -1 -1 2 2 2 -3 -3 -3 4 4 4
+output=24
+
+
+
+
+import java.io.*;
+import java.util.*;
+
+class MaxSumofSubArray {
+    public int maxSumAfterOperation(int[] nums) {
+        int maxEndHere0 = 0; // max subarray sum ending at nums[i] with 0 elements replaced
+        int maxEndHere1 = 0; // max subarray sum ending at nums[i] with 1 elements replaced
+        int maxSoFar = 0;
+        for (int num: nums) {
+            maxEndHere1 = Math.max(Math.max(maxEndHere0, 0) + num * num, maxEndHere1 + num); // replace num: continue or restart subarray; not replace num: continue
+            maxEndHere0 = Math.max(maxEndHere0, 0) + num; // continue or restart subarray
+            maxSoFar = Math.max(maxSoFar, maxEndHere1); // maxEndHere1 >= maxEndHere0, given num is integer
+        }
+        return maxSoFar;
+    }
+	
+	public static void main(String args[] ) throws IOException {
+	    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String str = br.readLine();
+		String[] arr = str.split(" ");
+		int[] nums = Arrays.asList(arr).stream().mapToInt(Integer::parseInt).toArray();
+		System.out.println(new MaxSumofSubArray().maxSumAfterOperation(nums));
+	}
+}
+
+
+

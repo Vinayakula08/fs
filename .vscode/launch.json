@@ -1,0 +1,470 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_10_Program_1",
+            "request": "launch",
+            "mainClass": "Fs_Day_10_Program_1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_10_Program_2",
+            "request": "launch",
+            "mainClass": "Fs_Day_10_Program_2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_11_Program_1",
+            "request": "launch",
+            "mainClass": "Fs_Day_11_Program_1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_11_Program_2",
+            "request": "launch",
+            "mainClass": "Fs_Day_11_Program_2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_11_Program_3",
+            "request": "launch",
+            "mainClass": "Fs_Day_11_Program_3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_12_Program_1",
+            "request": "launch",
+            "mainClass": "Fs_Day_12_Program_1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_12_Program_2",
+            "request": "launch",
+            "mainClass": "Fs_Day_12_Program_2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_12_Program_3",
+            "request": "launch",
+            "mainClass": "Fs_Day_12_Program_3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_14_Program_1",
+            "request": "launch",
+            "mainClass": "Fs_Day_14_Program_1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_14_Program_2",
+            "request": "launch",
+            "mainClass": "Fs_Day_14_Program_2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_15_Program_1",
+            "request": "launch",
+            "mainClass": "Fs_Day_15_Program_1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_1_Program_2",
+            "request": "launch",
+            "mainClass": "Fs_Day_1_Program_2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_1_Program_3",
+            "request": "launch",
+            "mainClass": "Fs_Day_1_Program_3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_2_Program_1",
+            "request": "launch",
+            "mainClass": "Fs_Day_2_Program_1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_2_Program_2",
+            "request": "launch",
+            "mainClass": "Fs_Day_2_Program_2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_2_Program_3",
+            "request": "launch",
+            "mainClass": "Fs_Day_2_Program_3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_3_Program_1",
+            "request": "launch",
+            "mainClass": "Fs_Day_3_Program_1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_3_Program_2",
+            "request": "launch",
+            "mainClass": "Fs_Day_3_Program_2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_3_Program_3",
+            "request": "launch",
+            "mainClass": "Fs_Day_3_Program_3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_4_Program_1",
+            "request": "launch",
+            "mainClass": "Fs_Day_4_Program_1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_4_Program_2",
+            "request": "launch",
+            "mainClass": "Fs_Day_4_Program_2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_4_Program_3",
+            "request": "launch",
+            "mainClass": "Fs_Day_4_Program_3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_5_Program_1",
+            "request": "launch",
+            "mainClass": "Fs_Day_5_Program_1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_5_Program_2",
+            "request": "launch",
+            "mainClass": "Fs_Day_5_Program_2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_5_Program_3",
+            "request": "launch",
+            "mainClass": "Fs_Day_5_Program_3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_6_Program_1",
+            "request": "launch",
+            "mainClass": "Fs_Day_6_Program_1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_6_Program_2",
+            "request": "launch",
+            "mainClass": "Fs_Day_6_Program_2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_6_Program_3",
+            "request": "launch",
+            "mainClass": "Fs_Day_6_Program_3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_7_Program_1",
+            "request": "launch",
+            "mainClass": "Fs_Day_7_Program_1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_7_Program_2",
+            "request": "launch",
+            "mainClass": "Fs_Day_7_Program_2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_7_Program_3",
+            "request": "launch",
+            "mainClass": "Fs_Day_7_Program_3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_8_Program_1",
+            "request": "launch",
+            "mainClass": "Fs_Day_8_Program_1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_8_Program_2",
+            "request": "launch",
+            "mainClass": "Fs_Day_8_Program_2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_8_Program_3",
+            "request": "launch",
+            "mainClass": "Fs_Day_8_Program_3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_9_Program_1",
+            "request": "launch",
+            "mainClass": "Fs_Day_9_Program_1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Day_9_Program_2",
+            "request": "launch",
+            "mainClass": "Fs_Day_9_Program_2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Screening_prog1_2pm",
+            "request": "launch",
+            "mainClass": "Fs_Screening_prog1_2pm",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Screening_prog2_4pm",
+            "request": "launch",
+            "mainClass": "Fs_Screening_prog2_4pm",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fs_Screening_prog3_4pm",
+            "request": "launch",
+            "mainClass": "Fs_Screening_prog3_4pm",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "GFG",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Islands",
+            "request": "launch",
+            "mainClass": "Islands",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch R",
+            "request": "launch",
+            "mainClass": "R",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution1",
+            "request": "launch",
+            "mainClass": "Solution1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution3",
+            "request": "launch",
+            "mainClass": "Solution3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortString",
+            "request": "launch",
+            "mainClass": "SortString",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch annaya_tcs_prime",
+            "request": "launch",
+            "mainClass": "annaya_tcs_prime",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch binfo",
+            "request": "launch",
+            "mainClass": "binfo",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch coin",
+            "request": "launch",
+            "mainClass": "coin",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch hcf",
+            "request": "launch",
+            "mainClass": "hcf",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch lambda",
+            "request": "launch",
+            "mainClass": "lambda",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch lambda1",
+            "request": "launch",
+            "mainClass": "lambda1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch lambda2",
+            "request": "launch",
+            "mainClass": "lambda2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch lambda3",
+            "request": "launch",
+            "mainClass": "lambda3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch lcm",
+            "request": "launch",
+            "mainClass": "lcm",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern",
+            "request": "launch",
+            "mainClass": "pattern",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch prac3",
+            "request": "launch",
+            "mainClass": "prac3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch predicate1",
+            "request": "launch",
+            "mainClass": "predicate1",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch predicate2",
+            "request": "launch",
+            "mainClass": "predicate2",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch predicate3",
+            "request": "launch",
+            "mainClass": "predicate3",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch rohith",
+            "request": "launch",
+            "mainClass": "rohith",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch sliding_window",
+            "request": "launch",
+            "mainClass": "sliding_window",
+            "projectName": "FS_3cb3d85"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "FS_3cb3d85"
+        }
+    ]
+}

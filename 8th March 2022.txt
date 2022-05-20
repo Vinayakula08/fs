@@ -1,0 +1,198 @@
+Program1 
+
+Ramu is given an group of scores and a special number k, 
+Now his teacher asked him to find the pairs(a,b) where a<b such that
+scores[a]-scores[b]==k. 
+The absolute diff should be equal to k 
+
+If no such pairs exists print 0
+The first line of input contains the size of the scores followed by the scores followed by a special number k 
+
+input =4
+4 5 5 4
+1
+the pairs which match the above condition
+[4 5 5 4]
+The pairs are as follows 
+[4 5]
+[4 5]
+[5 4]
+[5 4]
+
+
+input = 5
+4 3 2 6 5
+2
+output = 3
+The pairs are as follows 
+[4 2]
+[4 6]
+[3 5]
+
+
+back end test cases
+case = 1
+input = 5
+1 2 3 4 5
+1
+output=4
+
+case = 2
+input = 5
+4 3 2 6 5
+2
+output = 3
+
+case = 3
+input = 6
+3 8 9 2 4 1
+1
+output = 4
+
+case = 4
+input = 5
+3 2 1 5 4 
+2
+output = 3
+
+
+
+import java.util.*;
+class Solution {
+    public static int countKDifference(int[] nums, int k) {
+        Map<Integer,Integer> map = new HashMap<>();
+        int res = 0;
+        
+        for(int i = 0;i< nums.length;i++){
+            if(map.containsKey(nums[i]-k)){
+                res+= map.get(nums[i]-k);
+            }
+            if(map.containsKey(nums[i]+k)){
+                res+= map.get(nums[i]+k);
+            }
+            map.put(nums[i],map.getOrDefault(nums[i],0)+1);
+        }
+        
+        
+        return res;
+    }
+	public static void main(String [] args)
+	{
+	Scanner sc = new Scanner(System.in);
+	int n = sc.nextInt();
+	int [] a = new int[n];
+	for(int i=0;i<n;i++)
+       a[i]=sc.nextInt();
+	int k = sc.nextInt();
+    System.out.println(countKDifference(a,k));
+	}
+}
+
+
+Program-2
+
+Tinku a Second Class Student is given a Phrase which contains few words in {}
+His teacher marked all dificult words in the { }. 
+His teacher gave him the meaning to the difficult words 
+he was asked to replaced the difficult words in the { } with the meanings given to him. 
+
+if the difficult word doesnt exist print ?
+
+The first line of input contains the phrase followed by difficult words 
+Each difficult words is given by a name followed by meaning (n difficult words)
+
+
+input={name}isa{gender}
+name ajay gender boy
+output=ajayisaboy
+
+
+input={name}is{age}yearsold
+name bob age two
+output=bobistwoyearsold
+
+
+input=hi{name}
+a b
+output=hi?
+
+
+
+back end test cases
+
+case = 1
+input={abc}{hello}{good}
+abc xyz hello hi good nice
+output= xyzhinice
+
+case=2
+input={abcdefghijklmnopqrstuvwxyz}
+abc xyz
+output=?
+
+case=3
+input=hello{name}how{are}you
+name tony are are
+hellotonyhowareyou
+
+case = 4
+input={b}{b}{b}{b}{bbbb}
+b yes
+output=yesyesyesyes?
+
+case=5
+input={b}{b}{b}{b}bbbb
+b hello
+output=hellohellohellohellobbbb
+
+case = 6
+input=hello{name}how{are}you
+name tony are is you he
+output=hellotonyhowisyou
+
+import java.util.*;
+class Solution {
+    public static String evaluate(String s, HashMap<String,String>  hm) {
+        StringBuilder sb = new StringBuilder(s);
+        int pointone = 0;      
+        int pointwo =0 ;
+        int index=0;          
+        while(pointwo<s.length()){         
+            if(s.charAt(pointone)=='{'){     
+                while(s.charAt(pointwo)!='}'){
+                    pointwo++;
+                }
+            String query = s.substring(pointone+1 ,pointwo);   
+             if(hm.containsKey(query)){
+                 sb.replace(pointone-index,pointwo+1-index, hm.get(query));  
+                  index = index+query.length()+2-hm.get(query).length();  
+             }
+            else{
+                sb.replace(pointone-index,pointwo+1-index, "?");   
+                 index =index+query.length()+2-1;
+            } 
+                pointwo=pointwo+1;          
+                pointone=pointwo;   
+            }
+            else{
+                pointone++; 
+                pointwo++;
+            }
+        }
+    return sb.toString(); // return string
+    }
+	public static void main(String [] args)
+	{
+	Scanner sc = new Scanner(System.in);
+	String line =sc.nextLine();
+    String line1=sc.nextLine();
+	String [] arr = line1.split(" ");
+     HashMap<String,String> hm = new HashMap<String ,String>();
+        
+	for(int i=0;i<arr.length-1;i++)
+		   hm.put(arr[i],arr[i+1]);
+		
+	System.out.println(evaluate(line,hm));
+
+	}
+}

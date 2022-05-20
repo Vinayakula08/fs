@@ -1,0 +1,308 @@
+1)	What is the output of the following code?
+class Test 
+{
+	private static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+a)	Hello World!
+b)	Compilation fails
+c)	Run time exception
+d)	Prints garbage value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ans: C
+
+2)	
+For a given code 
+public class Test {
+   	static public void main(String [] args) {
+		for(int x = 1; x < args.length; x++) {
+			System.out.print(args[x] + " ");
+		}
+	}
+}
+and the command line invocation:
+java Test a b c
+What is the result?
+A. a b
+B. b c
+C. a b c 
+D. Compilation fails.
+E. An exception is thrown at runtime.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ans: B
+
+3)	
+For a given code 
+public class Test {
+   	public static  void main(String [] args) {
+		System.out.print(args.length+ " ");
+		}
+}
+and the command line invocation:
+java Test keshav memorial “institute of” Technology
+
+What is the result?
+A. 5
+B. 4
+C. 6 
+D. Compilation fails.
+E. An exception is thrown at runtime.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Answer: B
+
+4)
+Given the following classes, which of the following can independently replace
+INSERT IMPORTS HERE to make the code compile? (Choose all that apply)
+
+package aquarium; 
+public class Tank { }
+
+package aquarium.jellies;
+ public class Jelly { }
+
+package visitor;
+ INSERT IMPORTS HERE 
+public class AquariumVisitor 
+{ 
+  public void admire(Jelly jelly) { } 
+}
+
+A. import aquarium.*; 
+B. import aquarium.*.Jelly;
+ C. import aquarium.jellies.Jelly;
+ D. import aquarium.jellies.*;
+ E. import aquarium.jellies.Jelly.*;
+ F. None of these can make the code compile.
+
+
+
+
+
+
+
+
+Ans: C & D
+
+5)
+Given the following class in the file /my/directory/named/A/Bird.java:
+1.	INSERT CODE HERE
+2.	public class Bird { }
+Which of the following replaces INSERT CODE HERE if we compile from /my/directory? (Choose all that apply)
+a)	import my.directory.named.a; 
+b)	  package my.directory.named.A; 
+c)	  package named.a; 
+d)	  package named.A;
+e)	 package a; 
+f)	 package A; 
+g)	 Does not compile. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ans: D
+6)
+   class Test  {
+     { System.out.println("Hello world "); }
+    Test() { System.out.println("Hello Test");  } 
+    public static void main(String [] args)    {
+     Test t = new Test();
+     }
+     }
+
+ A)  Hello world
+     Hello Test
+
+ B)  Hello Test
+     Hello world 
+
+ C)  Compilation Error
+
+ D) None of these
+
+
+
+
+
+
+
+
+
+
+ 
+Ans :- A
+
+7) 
+     class Test      {
+       void Test() {  System.out.println("Hello Test "); }
+       public static void main(String [] args)      {
+            new Test();
+            new Test();
+       }
+     }
+
+ A)  Hello Test
+     Hello Test
+
+ B) Hello Test
+
+ C) Compilation Error
+
+ D) Prints Nothing 
+
+ 
+ 
+ 
+
+
+
+
+ 
+ 
+ 
+ Ans :- D 
+
+
+8)  public class Test
+    {
+       int i=10;
+         { i = 40; }
+         Test() {    i=20;    }
+        public static void main(String [] args) 
+         {  
+             Test t =new Test();
+          System.out.println(t.i) ;          
+         }
+          { i = 30 ; }
+     }
+
+A) 10 
+B) 20
+C) 30
+D) 40
+
+
+
+
+
+
+
+
+
+Ans :- B
+
+9)
+    public class Test
+    {
+         {  System.out.println("A"); }
+         Test() {     System.out.println("AA"); }
+        public static void main(String [] args) 
+         {  
+             Test t =new Test();
+          }
+          {  System.out.println("AAA");}
+     }
+
+A) A
+   AAA
+   AA
+
+B) A
+   AA
+   AAA
+
+C) AAA
+   AA 
+   A
+
+D) Output can't be predicted 
+
+
+
+
+
+Ans :- A
+
+10)
+
+Test t= new Test();
+In the above line where is ‘t’ created & new Test() created?
+a)	‘t’ is created on Stack & new Test() is created on Heap 
+b)	‘t’ is created on Heap & new Test() is created on Stack 
+c)	Both ‘t’  & new Test() are  created on Stack
+d)	Both ‘t’  & new Test() are created on Heap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ans: A
+
+
