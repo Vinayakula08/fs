@@ -19,10 +19,10 @@ class Main{
         if(a.length>2) result(k,Arrays.copyOfRange(a,1,a.length));
         return count;
     }
-    static int contains(int[] a, int k){
+   /* static int contains(int[] a, int k){
         for(int i=0;i<a.length;i++){
             if(a[i]==k) return i;
         }
         return -1;
-    }
+    }*/
 }

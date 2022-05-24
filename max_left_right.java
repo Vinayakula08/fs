@@ -14,14 +14,6 @@ class Main
             l.add(sum);
             return;
         }
-        int a1 = 0;
-        int b = 0;
-        int c = n-1;
-        while(m-->0){
-            while(a1<a.length && b<a[a1].length && c>=0){
-                
-            }
-        }
     }
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
