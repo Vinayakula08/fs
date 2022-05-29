@@ -1,0 +1,925 @@
+Microsoft Windows [Version 10.0.19044.1706]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\phanindra>git -version
+unknown option: -version
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+C:\Users\phanindra>git --version
+git version 2.36.0.windows.1
+
+C:\Users\phanindra>cd..
+
+C:\Users>cd..
+
+C:\>cd desktop
+The system cannot find the path specified.
+
+C:\>cd Desktop
+The system cannot find the path specified.
+
+C:\>dir
+ Volume in drive C is Acer
+ Volume Serial Number is F23A-C67E
+
+ Directory of C:\
+
+25-05-2022  08:44    <DIR>          Program Files
+25-11-2021  10:45    <DIR>          Program Files (x86)
+03-12-2021  14:38    <DIR>          setup
+07-10-2021  18:09    <DIR>          Users
+27-05-2022  23:20    <DIR>          Windows
+21-11-2021  22:08    <DIR>          xampp
+17-11-2021  10:22       167,797,328 xampp-windows-x64-7.4.25-0-VC15-installer.exe
+               1 File(s)    167,797,328 bytes
+               6 Dir(s)  429,332,971,520 bytes free
+
+C:\>cd users
+
+C:\Users>cd desktop
+The system cannot find the path specified.
+
+C:\Users>cd phanindra
+
+C:\Users\phanindra>cd Desktop
+
+C:\Users\phanindra\Desktop>mk dir
+'mk' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\phanindra\Desktop>mkdir
+The syntax of the command is incorrect.
+
+C:\Users\phanindra\Desktop>mkdir gitcommand
+
+C:\Users\phanindra\Desktop>dir
+ Volume in drive C is Acer
+ Volume Serial Number is F23A-C67E
+
+ Directory of C:\Users\phanindra\Desktop
+
+29-05-2022  10:18    <DIR>          .
+29-05-2022  10:18    <DIR>          ..
+02-11-2021  20:23           799,757 AADHAAR.pdf
+29-04-2022  12:33    <DIR>          CD
+08-10-2021  23:05             1,069 Dev-C++.lnk
+18-05-2022  18:53    <DIR>          DS
+03-12-2021  15:02             1,098 Eclipse IDE for Enterprise Java and Web Developers - 2021-09.lnk
+22-10-2021  10:31    <DIR>          epass
+15-12-2021  21:55    <DIR>          FS 2023
+29-05-2022  10:18    <DIR>          gitcommand
+15-03-2022  15:02             2,352 Microsoft Edge.lnk
+29-04-2022  12:36    <DIR>          My documents
+12-10-2021  09:16    <DIR>          online-medicine
+04-05-2022  23:36    <DIR>          placemnts
+29-04-2022  13:17    <DIR>          TCS
+03-05-2022  22:38         1,414,952 TeamsSetup_c_w_.exe
+08-10-2021  23:07             1,416 Visual Studio Code.lnk
+24-12-2021  10:58    <DIR>          work_space
+29-04-2022  12:34    <DIR>          WT
+29-11-2021  21:10         3,524,021 Yashavant Kanetkar - Let Us C-BPB Publications (2004).pdf
+               7 File(s)      5,744,665 bytes
+              13 Dir(s)  429,335,515,136 bytes free
+
+C:\Users\phanindra\Desktop>git config --global user.name "Phanindra0207"
+
+C:\Users\phanindra\Desktop>git config --gloabl user.email "phanindrapothula333@gmail.com"
+error: unknown option `gloabl'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+C:\Users\phanindra\Desktop>git config --global user.email "phanindrapothula333@gmail.com"
+
+C:\Users\phanindra\Desktop>cd gitcommand
+
+C:\Users\phanindra\Desktop\gitcommand>git init
+Initialized empty Git repository in C:/Users/phanindra/Desktop/gitcommand/.git/
+
+C:\Users\phanindra\Desktop\gitcommand>dir
+ Volume in drive C is Acer
+ Volume Serial Number is F23A-C67E
+
+ Directory of C:\Users\phanindra\Desktop\gitcommand
+
+29-05-2022  10:23    <DIR>          .
+29-05-2022  10:23    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  429,324,255,232 bytes free
+
+C:\Users\phanindra\Desktop\gitcommand>type 1.html
+The system cannot find the file specified.
+
+C:\Users\phanindra\Desktop\gitcommand>git remote add origin "https://github.com/Phanindra0207/Kotlin1"
+
+C:\Users\phanindra\Desktop\gitcommand>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\phanindra\Desktop\gitcommand>git add .
+
+C:\Users\phanindra\Desktop\gitcommand>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   1.txt
+
+
+C:\Users\phanindra\Desktop\gitcommand>git branch branch1
+fatal: not a valid object name: 'master'
+
+C:\Users\phanindra\Desktop\gitcommand>git branch "branch1"
+fatal: not a valid object name: 'master'
+
+C:\Users\phanindra\Desktop\gitcommand>git branch "phani"
+fatal: not a valid object name: 'master'
+
+C:\Users\phanindra\Desktop\gitcommand>git branch phani
+fatal: not a valid object name: 'master'
+
+C:\Users\phanindra\Desktop\gitcommand>git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+
+C:\Users\phanindra\Desktop\gitcommand>git branch master
+fatal: not a valid object name: 'master'
+
+C:\Users\phanindra\Desktop\gitcommand>git branch main
+fatal: not a valid object name: 'master'
+
+C:\Users\phanindra\Desktop\gitcommand>git commit -m "commited 1.txt"
+[master (root-commit) 35a723e] commited 1.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 1.txt
+
+C:\Users\phanindra\Desktop\gitcommand>git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Phanindra0207/Kotlin1'
+
+C:\Users\phanindra\Desktop\gitcommand>git remote add origin "https://github.com/Vinayakula08/fs"
+error: remote origin already exists.
+
+C:\Users\phanindra\Desktop\gitcommand>git init
+Reinitialized existing Git repository in C:/Users/phanindra/Desktop/gitcommand/.git/
+
+C:\Users\phanindra\Desktop\gitcommand>git remote add origin "https://github.com/Vinayakula08/fs"
+error: remote origin already exists.
+
+C:\Users\phanindra\Desktop\gitcommand>git remote change origin "https://github.com/Vinayakula08/fs"
+error: Unknown subcommand: change
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+C:\Users\phanindra\Desktop\gitcommand>git remote set-url origin s://github.com/Vinayakula08/fs"
+
+C:\Users\phanindra\Desktop\gitcommand>git remote set-url origin "https://github.com/Vinayakula08/fs"
+
+C:\Users\phanindra\Desktop\gitcommand>git remote -v
+origin  https://github.com/Vinayakula08/fs (fetch)
+origin  https://github.com/Vinayakula08/fs (push)
+
+C:\Users\phanindra\Desktop\gitcommand>git branch "phani"
+
+C:\Users\phanindra\Desktop\gitcommand>git checkout "phani"
+Switched to branch 'phani'
+
+C:\Users\phanindra\Desktop\gitcommand>git status
+On branch phani
+nothing to commit, working tree clean
+
+C:\Users\phanindra\Desktop\gitcommand>git status
+On branch phani
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\phanindra\Desktop\gitcommand>git add .
+
+C:\Users\phanindra\Desktop\gitcommand>git commit -m "1.txt commited"
+[phani b14d6d9] 1.txt commited
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\phanindra\Desktop\gitcommand>git push origin phani
+
+C:\Users\phanindra\Desktop\gitcommand>1.txt
+
+C:\Users\phanindra\Desktop\gitcommand>h
+'h' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\phanindra\Desktop\gitcommand>git push orign phani
+fatal: 'orign' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\phanindra\Desktop\gitcommand>git push origin phani
+remote: Permission to Vinayakula08/fs.git denied to Phanindra0207.
+fatal: unable to access 'https://github.com/Vinayakula08/fs/': The requested URL returned error: 403
+
+C:\Users\phanindra\Desktop\gitcommand>git push origin phani
+remote: Permission to Vinayakula08/fs.git denied to Phanindra0207.
+fatal: unable to access 'https://github.com/Vinayakula08/fs/': The requested URL returned error: 403
+
+C:\Users\phanindra\Desktop\gitcommand>git push origin phani
+remote: Permission to Vinayakula08/fs.git denied to Phanindra0207.
+fatal: unable to access 'https://github.com/Vinayakula08/fs/': The requested URL returned error: 403
+
+C:\Users\phanindra\Desktop\gitcommand>git push origin phani
+remote: Permission to Vinayakula08/fs.git denied to Phanindra0207.
+fatal: unable to access 'https://github.com/Vinayakula08/fs/': The requested URL returned error: 403
+
+C:\Users\phanindra\Desktop\gitcommand>git push origin phani
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 439 bytes | 439.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'phani' on GitHub by visiting:
+remote:      https://github.com/Vinayakula08/fs/pull/new/phani
+remote:
+To https://github.com/Vinayakula08/fs
+ * [new branch]      phani -> phani
+
+C:\Users\phanindra\Desktop\gitcommand>git status
+On branch phani
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\phanindra\Desktop\gitcommand>git add .
+
+C:\Users\phanindra\Desktop\gitcommand>git status
+On branch phani
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   2.txt
+
+
+C:\Users\phanindra\Desktop\gitcommand>git commit -m "2"
+[phani 1f6ef3c] 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 2.txt
+
+C:\Users\phanindra\Desktop\gitcommand>git push origin phani
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 271 bytes | 271.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Vinayakula08/fs
+   b14d6d9..1f6ef3c  phani -> phani
+
+C:\Users\phanindra\Desktop\gitcommand>git pull origin vinay
+remote: Enumerating objects: 285, done.
+remote: Counting objects: 100% (285/285), done.
+remote: Compressing objects: 100% (260/260), done.
+remote: Total 285 (delta 21), reused 285 (delta 21), pack-reused 0
+Receiving objects: 100% (285/285), 8.21 MiB | 11.25 MiB/s, done.
+Resolving deltas: 100% (21/21), done.
+From https://github.com/Vinayakula08/fs
+ * branch            vinay      -> FETCH_HEAD
+ * [new branch]      vinay      -> origin/vinay
+fatal: refusing to merge unrelated histories
+
+C:\Users\phanindra\Desktop\gitcommand>git pull origin phani
+From https://github.com/Vinayakula08/fs
+ * branch            phani      -> FETCH_HEAD
+Already up to date.
+
+C:\Users\phanindra\Desktop\gitcommand>git pull origin vinay
+From https://github.com/Vinayakula08/fs
+ * branch            vinay      -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+C:\Users\phanindra\Desktop\gitcommand>git add ./1.txt
+
+C:\Users\phanindra\Desktop\gitcommand>git status
+On branch phani
+nothing to commit, working tree clean
+
+C:\Users\phanindra\Desktop\gitcommand>git pull origin vinay --allow-unrelated-histories
+From https://github.com/Vinayakula08/fs
+ * branch            vinay      -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ .vscode/launch.json                                | 470 ++++++++++++++++++++
+ 1.py                                               |   1 +
+ 10th Jan Programs.txt                              | 169 +++++++
+ 11th Jan Programs.txt                              | 458 +++++++++++++++++++
+ 12th Jan Programs.txt                              | 486 +++++++++++++++++++++
+ 27th Dec 2021 Programs.txt                         | 203 +++++++++
+ 27th Dec MCQ's.txt                                 | 213 +++++++++
+ 28th Dec MCQs.txt                                  | 308 +++++++++++++
+ 28th Dec Programs.txt                              | 185 ++++++++
+ 29th Dec Programs.txt                              | 241 ++++++++++
+ 3rd Jan 2022 Programs.txt                          | 311 +++++++++++++
+ 8th March 2022.txt                                 | 198 +++++++++
+ CreateList.c                                       |  61 +++
+ DP 19th April.docx                                 | Bin 0 -> 184848 bytes
+ DateExample1.java                                  |  46 ++
+ DateExample2.java                                  |  29 ++
+ DynamicProgramming-1.pdf                           | Bin 0 -> 933442 bytes
+ Fs_Day_10_Program_1.java                           |  67 +++
+ Fs_Day_10_Program_2.java                           |  62 +++
+ Fs_Day_11_Program_1.java                           |  74 ++++
+ Fs_Day_11_Program_2.java                           |  84 ++++
+ Fs_Day_11_Program_3.java                           |  64 +++
+ Fs_Day_12_Program_1.java                           |  76 ++++
+ Fs_Day_12_Program_2.java                           |  79 ++++
+ Fs_Day_12_Program_3.java                           |  69 +++
+ Fs_Day_14_Program_1.java                           |  64 +++
+ Fs_Day_14_Program_2.java                           |  62 +++
+ Fs_Day_15_Program_1.java                           |  57 +++
+ Fs_Day_15_Program_2.java                           |  92 ++++
+ Fs_Day_16_Program_1.java                           |  70 +++
+ Fs_Day_16_Program_2.java                           |  66 +++
+ Fs_Day_17_Program_1.java                           |  52 +++
+ Fs_Day_17_Program_2.java                           | 117 +++++
+ Fs_Day_17_Program_3.java                           | 131 ++++++
+ Fs_Day_18_Program_1.java                           |  78 ++++
+ Fs_Day_18_Program_2.java                           |  82 ++++
+ Fs_Day_18_Program_3.java                           | 101 +++++
+ Fs_Day_19_Program_1.java                           |  81 ++++
+ Fs_Day_19_Program_2.java                           |  72 +++
+ Fs_Day_19_Program_3.java                           |  70 +++
+ Fs_Day_1_Program_1.java                            |  17 +
+ Fs_Day_1_Program_2.java                            |  33 ++
+ Fs_Day_1_Program_3.java                            |  36 ++
+ Fs_Day_20_Program_1.java                           |  70 +++
+ Fs_Day_20_Program_2.java                           | 109 +++++
+ Fs_Day_20_Program_3.java                           | 120 +++++
+ Fs_Day_21_Program_1.java                           |  52 +++
+ Fs_Day_21_Program_2.java                           | 139 ++++++
+ Fs_Day_22_Program_1.java                           |  61 +++
+ Fs_Day_22_Program_2.java                           | 131 ++++++
+ Fs_Day_23_Program_1.java                           |  80 ++++
+ Fs_Day_23_Program_2.java                           | 111 +++++
+ Fs_Day_24_Program_1.java                           |  64 +++
+ Fs_Day_24_Program_2.java                           |  39 ++
+ Fs_Day_25_Program_1.java                           |  89 ++++
+ Fs_Day_25_Program_2.java                           |  74 ++++
+ Fs_Day_2_Program_1.java                            |  32 ++
+ Fs_Day_2_Program_2.java                            |  67 +++
+ Fs_Day_2_Program_3.java                            |  59 +++
+ Fs_Day_3_Program_1.java                            |  53 +++
+ Fs_Day_3_Program_2.java                            |  57 +++
+ Fs_Day_3_Program_3.java                            | 267 +++++++++++
+ Fs_Day_4_Program_1.java                            |  62 +++
+ Fs_Day_4_Program_2.java                            |  98 +++++
+ Fs_Day_4_Program_3.java                            |  77 ++++
+ Fs_Day_5_Program_1.java                            | 164 +++++++
+ Fs_Day_5_Program_2.java                            | 101 +++++
+ Fs_Day_5_Program_3.java                            | 121 +++++
+ Fs_Day_6_Program_1.java                            |  65 +++
+ Fs_Day_6_Program_2.java                            |  78 ++++
+ Fs_Day_6_Program_3.java                            |  77 ++++
+ Fs_Day_7_Program_1.java                            |  80 ++++
+ Fs_Day_7_Program_2.java                            | 117 +++++
+ Fs_Day_7_Program_3.java                            | 137 ++++++
+ Fs_Day_8_Program_1.java                            |  68 +++
+ Fs_Day_8_Program_2.java                            |  76 ++++
+ Fs_Day_8_Program_3.java                            |  93 ++++
+ Fs_Day_9_Program_1.java                            | 101 +++++
+ Fs_Day_9_Program_2.java                            |  49 +++
+ Fs_Screening_prog1_2pm.java                        | 105 +++++
+ Fs_Screening_prog2_2pm.java                        |  29 ++
+ Fs_Screening_prog2_4pm.class                       | Bin 0 -> 1267 bytes
+ Fs_Screening_prog2_4pm.java                        |  50 +++
+ Fs_Screening_prog3_4pm.java                        |  36 ++
+ GFG.class                                          | Bin 0 -> 1148 bytes
+ GRAPHS.docx                                        | Bin 0 -> 696870 bytes
+ Graph.pptx                                         | Bin 0 -> 163091 bytes
+ Greedy-I.pdf                                       | Bin 0 -> 895580 bytes
+ Infosys_Shortlist_2022-23.xlsx                     | Bin 0 -> 13455 bytes
+ Islands.class                                      | Bin 0 -> 2188 bytes
+ Jug.pdf                                            | Bin 0 -> 712274 bytes
+ KMIT_TERICSOFT_LIST_2022-23.xlsx                   | Bin 0 -> 17919 bytes
+ Lambda Notes.txt                                   |  24 +
+ LinkedListPalindrome.docx                          | Bin 0 -> 23214 bytes
+ Main$1.class                                       | Bin 0 -> 677 bytes
+ Main.class                                         | Bin 0 -> 1691 bytes
+ MaximumFlowMinimumCut.pdf                          | Bin 0 -> 1513556 bytes
+ Maximum_Formed_From_Array.java                     |  65 +++
+ MySql.pdf                                          | Bin 0 -> 288510 bytes
+ Quiz_28-12-2021.pdf                                | Bin 0 -> 176125 bytes
+ R.class                                            | Bin 0 -> 2841 bytes
+ R.java                                             | 131 ++++++
+ Solution.class                                     | Bin 0 -> 609 bytes
+ Solution.java                                      |  84 ++++
+ Solution1.class                                    | Bin 0 -> 3184 bytes
+ Solution1.java                                     | 104 +++++
+ Solution3.class                                    | Bin 0 -> 3134 bytes
+ Solution3.java                                     |  90 ++++
+ Table.java                                         |  41 ++
+ Tericsoft_probable_list.xlsx                       | Bin 0 -> 10440 bytes
+ Test.class                                         | Bin 0 -> 827 bytes
+ TestSynchronization3.java                          |  31 ++
+ TestSynchronizedBlock1.java                        |  43 ++
+ Threads.docx                                       | Bin 0 -> 61113 bytes
+ Time and Distance.pdf                              | Bin 0 -> 396524 bytes
+ Untitled-1.txt                                     |   0
+ ...SE 8 Programmer I Study Guide Exam 1Z0-808].pdf | Bin 0 -> 3198660 bytes
+ adjacent.java                                      |  49 +++
+ all_substrings.java                                |   0
+ annaya_tcs_prime.class                             | Bin 0 -> 1644 bytes
+ annaya_tcs_prime.java                              |  72 +++
+ annayya.java                                       |  40 ++
+ annayya_accenture.java                             |  76 ++++
+ annayya_tcs_prime.class                            | Bin 0 -> 1634 bytes
+ arrival_departue.java                              |  39 ++
+ bank.java                                          |  41 ++
+ bhan.java                                          |  80 ++++
+ binary_search_related.java                         |  43 ++
+ binfo.class                                        | Bin 0 -> 1263 bytes
+ binfo.java                                         |  45 ++
+ binfo2.java                                        |  53 +++
+ bst.c                                              | 143 ++++++
+ bst.exe                                            | Bin 0 -> 133233 bytes
+ check_connectipns.java                             |  87 ++++
+ check_string.java                                  |  89 ++++
+ check_string1.java                                 |  38 ++
+ convert_one_number_to_another.java                 |  84 ++++
+ count_triangles.java                               |  49 +++
+ coupon_gold.java                                   | 127 ++++++
+ courier.java                                       |  36 ++
+ danny.java                                         |  27 ++
+ defference_between_contiguous_digits.java          |  63 +++
+ dice.java                                          |  64 +++
+ divide_array.java                                  |  45 ++
+ dividide_string_for_distict_characters.java        |  55 +++
+ ds/basis_linkedlist.java                           |  48 ++
+ ds/linkedlist$Node.class                           | Bin 0 -> 381 bytes
+ ds/linkedlist.class                                | Bin 0 -> 1614 bytes
+ ecrypt_tcs.java                                    |  27 ++
+ elite_coupon.java                                  | 209 +++++++++
+ encrypt_tcs.java                                   |  58 +++
+ examiner.java                                      |  57 +++
+ factorial.java                                     |  24 +
+ findLoop Doc.docx                                  | Bin 0 -> 29520 bytes
+ findLoop.c                                         |  64 +++
+ findLoop2.c                                        |  64 +++
+ findalloutcomes.java                               |  46 ++
+ frequency_related.java                             |  81 ++++
+ generate_string_122.java                           |  70 +++
+ goldmine.java                                      |  45 ++
+ goldmine2.java                                     | 117 +++++
+ greedy_first_last.java                             |  67 +++
+ harsha.java                                        |  46 ++
+ harsha2.java                                       |  67 +++
+ harshaadv1.java                                    |  39 ++
+ hcf.java                                           |  34 ++
+ infosys.java                                       |  70 +++
+ infy.java                                          |  61 +++
+ jumping.java                                       |  68 +++
+ lambda.java                                        |  18 +
+ lambda1.java                                       |  32 ++
+ lambda2.java                                       |  36 ++
+ lambda3.java                                       |  17 +
+ lcm.java                                           |  40 ++
+ lcs.java                                           |  21 +
+ linked_list.c                                      | 266 +++++++++++
+ make_all_buckets_equal.java                        |  83 ++++
+ make_equal_bukets.java                             |  83 ++++
+ mapping.java                                       |  72 +++
+ matrix.java                                        |  37 ++
+ max_difference_after_changing_characters.java      |  88 ++++
+ max_left_right.java                                |  45 ++
+ max_subarray_length_with_b_after_changing_m_a.java |  98 +++++
+ maxarea.java                                       |  43 ++
+ maxicecreams.java                                  |  64 +++
+ maxviva.java                                       |  75 ++++
+ merge_sort_related.java                            | 101 +++++
+ middleElement.c                                    |  53 +++
+ min_knight_moves.java                              |  34 ++
+ ...um_operations_to_make_two_array_sums_equal.java | 107 +++++
+ motupatlu.java                                     |  46 ++
+ no_of_ways.java                                    |  21 +
+ noofpairstogetdiff.java                            |  63 +++
+ number_of_submatrices_of_all_1.java                |  61 +++
+ odd_even_sum.java                                  |  90 ++++
+ oops/DSA-Bootcamp-Java                             |   1 +
+ oops/Main.class                                    | Bin 0 -> 509 bytes
+ oops/emp_oops.java                                 | 121 +++++
+ oops/oopsintro.java                                |  11 +
+ oops/practice.class                                | Bin 0 -> 513 bytes
+ oops/practice.java                                 |  17 +
+ oops/vinay.class                                   | Bin 0 -> 429 bytes
+ p1.java                                            |  26 ++
+ p2.java                                            |  29 ++
+ p3.java                                            |  30 ++
+ palindromeLinkedList.c                             | 170 +++++++
+ pattern.java                                       |  69 +++
+ pattern1.java                                      |  58 +++
+ pavan1.java                                        |  27 ++
+ pavan2.java                                        |  30 ++
+ pickup_drop.java                                   |  83 ++++
+ police_theif.java                                  |  51 +++
+ prac3.class                                        | Bin 0 -> 3103 bytes
+ practice.java                                      |  87 ++++
+ practicepatterns.java                              |  50 +++
+ pradeep.java                                       |  36 ++
+ predicate1.java                                    |  49 +++
+ predicate2.java                                    |  14 +
+ predicate3.java                                    |  14 +
+ prime_and_sum.java                                 |  45 ++
+ prime_mail_tcs.java                                |  37 ++
+ print_alphabet_order.java                          |  24 +
+ printsNElement.c                                   |  61 +++
+ puli.java                                          |  38 ++
+ puli1.java                                         |  27 ++
+ pulijuspay.java                                    |  85 ++++
+ rain_water.java                                    |  31 ++
+ rearrange_with_possitive_negative.java             |  43 ++
+ recursion/1_to_n.java                              |  25 ++
+ recursion/Main.class                               | Bin 0 -> 1649 bytes
+ recursion/binary_search_recursion.java             |  22 +
+ recursion/nqueens.java                             |  50 +++
+ recursion/permute.java                             |  24 +
+ recursion/reverse_number.class                     | Bin 0 -> 704 bytes
+ recursion/reverse_number.java                      |  15 +
+ recursion/sum_of_digits.java                       |  14 +
+ recursion/sumofsubset.java                         |  34 ++
+ recursion/venom.java                               |  43 ++
+ rinfo.java                                         |  66 +++
+ rinfo2.java                                        |  17 +
+ rohith.java                                        |  97 ++++
+ sample.java                                        |  28 ++
+ schema.sql                                         |  68 +++
+ second_largest.java                                |  26 ++
+ sliding_window.java                                |  49 +++
+ sort_elements_diagnolly.java                       |  78 ++++
+ stack_based.java                                   | 106 +++++
+ stringmanipulationwithcurly.java                   |  93 ++++
+ stringmanipulation{}.java                          |  67 +++
+ stringscompare.java                                |  33 ++
+ sub_words_with_distinct_characters.java            |  53 +++
+ subarray_sum_divide_by_k.JAVA                      |  34 ++
+ subset.java                                        |  28 ++
+ substrings_with_uniqe_characters.java              |  51 +++
+ sum_of_digits.java                                 |  15 +
+ tcs1.java                                          |  40 ++
+ tcs2.java                                          |  55 +++
+ tcs_class_arrangement.java                         |  53 +++
+ too_and_foo.java                                   |  42 ++
+ triplets.java                                      |  28 ++
+ valid_substring_with_AB.java                       |  62 +++
+ valid_sudoku.java                                  |  88 ++++
+ venom_freq.java                                    |  34 ++
+ venomadv.java                                      |  60 +++
+ venu.java                                          |  63 +++
+ vh.java                                            |  73 ++++
+ vivek_find_string.class                            | Bin 0 -> 1189 bytes
+ vivek_find_string.java                             |  47 ++
+ withoutlambda1.java                                |  47 ++
+ zombie.java                                        |  25 ++
+ 270 files changed, 17024 insertions(+)
+ create mode 100644 .vscode/launch.json
+ create mode 100644 1.py
+ create mode 100644 10th Jan Programs.txt
+ create mode 100644 11th Jan Programs.txt
+ create mode 100644 12th Jan Programs.txt
+ create mode 100644 27th Dec 2021 Programs.txt
+ create mode 100644 27th Dec MCQ's.txt
+ create mode 100644 28th Dec MCQs.txt
+ create mode 100644 28th Dec Programs.txt
+ create mode 100644 29th Dec Programs.txt
+ create mode 100644 3rd Jan 2022 Programs.txt
+ create mode 100644 8th March 2022.txt
+ create mode 100644 CreateList.c
+ create mode 100644 DP 19th April.docx
+ create mode 100644 DateExample1.java
+ create mode 100644 DateExample2.java
+ create mode 100644 DynamicProgramming-1.pdf
+ create mode 100644 Fs_Day_10_Program_1.java
+ create mode 100644 Fs_Day_10_Program_2.java
+ create mode 100644 Fs_Day_11_Program_1.java
+ create mode 100644 Fs_Day_11_Program_2.java
+ create mode 100644 Fs_Day_11_Program_3.java
+ create mode 100644 Fs_Day_12_Program_1.java
+ create mode 100644 Fs_Day_12_Program_2.java
+ create mode 100644 Fs_Day_12_Program_3.java
+ create mode 100644 Fs_Day_14_Program_1.java
+ create mode 100644 Fs_Day_14_Program_2.java
+ create mode 100644 Fs_Day_15_Program_1.java
+ create mode 100644 Fs_Day_15_Program_2.java
+ create mode 100644 Fs_Day_16_Program_1.java
+ create mode 100644 Fs_Day_16_Program_2.java
+ create mode 100644 Fs_Day_17_Program_1.java
+ create mode 100644 Fs_Day_17_Program_2.java
+ create mode 100644 Fs_Day_17_Program_3.java
+ create mode 100644 Fs_Day_18_Program_1.java
+ create mode 100644 Fs_Day_18_Program_2.java
+ create mode 100644 Fs_Day_18_Program_3.java
+ create mode 100644 Fs_Day_19_Program_1.java
+ create mode 100644 Fs_Day_19_Program_2.java
+ create mode 100644 Fs_Day_19_Program_3.java
+ create mode 100644 Fs_Day_1_Program_1.java
+ create mode 100644 Fs_Day_1_Program_2.java
+ create mode 100644 Fs_Day_1_Program_3.java
+ create mode 100644 Fs_Day_20_Program_1.java
+ create mode 100644 Fs_Day_20_Program_2.java
+ create mode 100644 Fs_Day_20_Program_3.java
+ create mode 100644 Fs_Day_21_Program_1.java
+ create mode 100644 Fs_Day_21_Program_2.java
+ create mode 100644 Fs_Day_22_Program_1.java
+ create mode 100644 Fs_Day_22_Program_2.java
+ create mode 100644 Fs_Day_23_Program_1.java
+ create mode 100644 Fs_Day_23_Program_2.java
+ create mode 100644 Fs_Day_24_Program_1.java
+ create mode 100644 Fs_Day_24_Program_2.java
+ create mode 100644 Fs_Day_25_Program_1.java
+ create mode 100644 Fs_Day_25_Program_2.java
+ create mode 100644 Fs_Day_2_Program_1.java
+ create mode 100644 Fs_Day_2_Program_2.java
+ create mode 100644 Fs_Day_2_Program_3.java
+ create mode 100644 Fs_Day_3_Program_1.java
+ create mode 100644 Fs_Day_3_Program_2.java
+ create mode 100644 Fs_Day_3_Program_3.java
+ create mode 100644 Fs_Day_4_Program_1.java
+ create mode 100644 Fs_Day_4_Program_2.java
+ create mode 100644 Fs_Day_4_Program_3.java
+ create mode 100644 Fs_Day_5_Program_1.java
+ create mode 100644 Fs_Day_5_Program_2.java
+ create mode 100644 Fs_Day_5_Program_3.java
+ create mode 100644 Fs_Day_6_Program_1.java
+ create mode 100644 Fs_Day_6_Program_2.java
+ create mode 100644 Fs_Day_6_Program_3.java
+ create mode 100644 Fs_Day_7_Program_1.java
+ create mode 100644 Fs_Day_7_Program_2.java
+ create mode 100644 Fs_Day_7_Program_3.java
+ create mode 100644 Fs_Day_8_Program_1.java
+ create mode 100644 Fs_Day_8_Program_2.java
+ create mode 100644 Fs_Day_8_Program_3.java
+ create mode 100644 Fs_Day_9_Program_1.java
+ create mode 100644 Fs_Day_9_Program_2.java
+ create mode 100644 Fs_Screening_prog1_2pm.java
+ create mode 100644 Fs_Screening_prog2_2pm.java
+ create mode 100644 Fs_Screening_prog2_4pm.class
+ create mode 100644 Fs_Screening_prog2_4pm.java
+ create mode 100644 Fs_Screening_prog3_4pm.java
+ create mode 100644 GFG.class
+ create mode 100644 GRAPHS.docx
+ create mode 100644 Graph.pptx
+ create mode 100644 Greedy-I.pdf
+ create mode 100644 Infosys_Shortlist_2022-23.xlsx
+ create mode 100644 Islands.class
+ create mode 100644 Jug.pdf
+ create mode 100644 KMIT_TERICSOFT_LIST_2022-23.xlsx
+ create mode 100644 Lambda Notes.txt
+ create mode 100644 LinkedListPalindrome.docx
+ create mode 100644 Main$1.class
+ create mode 100644 Main.class
+ create mode 100644 MaximumFlowMinimumCut.pdf
+ create mode 100644 Maximum_Formed_From_Array.java
+ create mode 100644 MySql.pdf
+ create mode 100644 Quiz_28-12-2021.pdf
+ create mode 100644 R.class
+ create mode 100644 R.java
+ create mode 100644 Solution.class
+ create mode 100644 Solution.java
+ create mode 100644 Solution1.class
+ create mode 100644 Solution1.java
+ create mode 100644 Solution3.class
+ create mode 100644 Solution3.java
+ create mode 100644 Table.java
+ create mode 100644 Tericsoft_probable_list.xlsx
+ create mode 100644 Test.class
+ create mode 100644 TestSynchronization3.java
+ create mode 100644 TestSynchronizedBlock1.java
+ create mode 100644 Threads.docx
+ create mode 100644 Time and Distance.pdf
+ create mode 100644 Untitled-1.txt
+ create mode 100644 [JAVA][OCA Oracle Certified Associate Java SE 8 Programmer I Study Guide Exam 1Z0-808].pdf
+ create mode 100644 adjacent.java
+ create mode 100644 all_substrings.java
+ create mode 100644 annaya_tcs_prime.class
+ create mode 100644 annaya_tcs_prime.java
+ create mode 100644 annayya.java
+ create mode 100644 annayya_accenture.java
+ create mode 100644 annayya_tcs_prime.class
+ create mode 100644 arrival_departue.java
+ create mode 100644 bank.java
+ create mode 100644 bhan.java
+ create mode 100644 binary_search_related.java
+ create mode 100644 binfo.class
+ create mode 100644 binfo.java
+ create mode 100644 binfo2.java
+ create mode 100644 bst.c
+ create mode 100644 bst.exe
+ create mode 100644 check_connectipns.java
+ create mode 100644 check_string.java
+ create mode 100644 check_string1.java
+ create mode 100644 convert_one_number_to_another.java
+ create mode 100644 count_triangles.java
+ create mode 100644 coupon_gold.java
+ create mode 100644 courier.java
+ create mode 100644 danny.java
+ create mode 100644 defference_between_contiguous_digits.java
+ create mode 100644 dice.java
+ create mode 100644 divide_array.java
+ create mode 100644 dividide_string_for_distict_characters.java
+ create mode 100644 ds/basis_linkedlist.java
+ create mode 100644 ds/linkedlist$Node.class
+ create mode 100644 ds/linkedlist.class
+ create mode 100644 ecrypt_tcs.java
+ create mode 100644 elite_coupon.java
+ create mode 100644 encrypt_tcs.java
+ create mode 100644 examiner.java
+ create mode 100644 factorial.java
+ create mode 100644 findLoop Doc.docx
+ create mode 100644 findLoop.c
+ create mode 100644 findLoop2.c
+ create mode 100644 findalloutcomes.java
+ create mode 100644 frequency_related.java
+ create mode 100644 generate_string_122.java
+ create mode 100644 goldmine.java
+ create mode 100644 goldmine2.java
+ create mode 100644 greedy_first_last.java
+ create mode 100644 harsha.java
+ create mode 100644 harsha2.java
+ create mode 100644 harshaadv1.java
+ create mode 100644 hcf.java
+ create mode 100644 infosys.java
+ create mode 100644 infy.java
+ create mode 100644 jumping.java
+ create mode 100644 lambda.java
+ create mode 100644 lambda1.java
+ create mode 100644 lambda2.java
+ create mode 100644 lambda3.java
+ create mode 100644 lcm.java
+ create mode 100644 lcs.java
+ create mode 100644 linked_list.c
+ create mode 100644 make_all_buckets_equal.java
+ create mode 100644 make_equal_bukets.java
+ create mode 100644 mapping.java
+ create mode 100644 matrix.java
+ create mode 100644 max_difference_after_changing_characters.java
+ create mode 100644 max_left_right.java
+ create mode 100644 max_subarray_length_with_b_after_changing_m_a.java
+ create mode 100644 maxarea.java
+ create mode 100644 maxicecreams.java
+ create mode 100644 maxviva.java
+ create mode 100644 merge_sort_related.java
+ create mode 100644 middleElement.c
+ create mode 100644 min_knight_moves.java
+ create mode 100644 minimum_operations_to_make_two_array_sums_equal.java
+ create mode 100644 motupatlu.java
+ create mode 100644 no_of_ways.java
+ create mode 100644 noofpairstogetdiff.java
+ create mode 100644 number_of_submatrices_of_all_1.java
+ create mode 100644 odd_even_sum.java
+ create mode 160000 oops/DSA-Bootcamp-Java
+ create mode 100644 oops/Main.class
+ create mode 100644 oops/emp_oops.java
+ create mode 100644 oops/oopsintro.java
+ create mode 100644 oops/practice.class
+ create mode 100644 oops/practice.java
+ create mode 100644 oops/vinay.class
+ create mode 100644 p1.java
+ create mode 100644 p2.java
+ create mode 100644 p3.java
+ create mode 100644 palindromeLinkedList.c
+ create mode 100644 pattern.java
+ create mode 100644 pattern1.java
+ create mode 100644 pavan1.java
+ create mode 100644 pavan2.java
+ create mode 100644 pickup_drop.java
+ create mode 100644 police_theif.java
+ create mode 100644 prac3.class
+ create mode 100644 practice.java
+ create mode 100644 practicepatterns.java
+ create mode 100644 pradeep.java
+ create mode 100644 predicate1.java
+ create mode 100644 predicate2.java
+ create mode 100644 predicate3.java
+ create mode 100644 prime_and_sum.java
+ create mode 100644 prime_mail_tcs.java
+ create mode 100644 print_alphabet_order.java
+ create mode 100644 printsNElement.c
+ create mode 100644 puli.java
+ create mode 100644 puli1.java
+ create mode 100644 pulijuspay.java
+ create mode 100644 rain_water.java
+ create mode 100644 rearrange_with_possitive_negative.java
+ create mode 100644 recursion/1_to_n.java
+ create mode 100644 recursion/Main.class
+ create mode 100644 recursion/binary_search_recursion.java
+ create mode 100644 recursion/nqueens.java
+ create mode 100644 recursion/permute.java
+ create mode 100644 recursion/reverse_number.class
+ create mode 100644 recursion/reverse_number.java
+ create mode 100644 recursion/sum_of_digits.java
+ create mode 100644 recursion/sumofsubset.java
+ create mode 100644 recursion/venom.java
+ create mode 100644 rinfo.java
+ create mode 100644 rinfo2.java
+ create mode 100644 rohith.java
+ create mode 100644 sample.java
+ create mode 100644 schema.sql
+ create mode 100644 second_largest.java
+ create mode 100644 sliding_window.java
+ create mode 100644 sort_elements_diagnolly.java
+ create mode 100644 stack_based.java
+ create mode 100644 stringmanipulationwithcurly.java
+ create mode 100644 stringmanipulation{}.java
+ create mode 100644 stringscompare.java
+ create mode 100644 sub_words_with_distinct_characters.java
+ create mode 100644 subarray_sum_divide_by_k.JAVA
+ create mode 100644 subset.java
+ create mode 100644 substrings_with_uniqe_characters.java
+ create mode 100644 sum_of_digits.java
+ create mode 100644 tcs1.java
+ create mode 100644 tcs2.java
+ create mode 100644 tcs_class_arrangement.java
+ create mode 100644 too_and_foo.java
+ create mode 100644 triplets.java
+ create mode 100644 valid_substring_with_AB.java
+ create mode 100644 valid_sudoku.java
+ create mode 100644 venom_freq.java
+ create mode 100644 venomadv.java
+ create mode 100644 venu.java
+ create mode 100644 vh.java
+ create mode 100644 vivek_find_string.class
+ create mode 100644 vivek_find_string.java
+ create mode 100644 withoutlambda1.java
+ create mode 100644 zombie.java
+
+C:\Users\phanindra\Desktop\gitcommand>
